@@ -11,13 +11,13 @@ document.addEventListener('DOMContentLoaded', function() {
     let completedTasks = 0;
     const totalTasks = 6;
 
-    // elements
+    // elements section
     const completedCountElement = document.getElementById('completed-count');
     const taskCountElement = document.getElementById('task-count');
     const activityLogElement = document.getElementById('activity-log');
     const clearHistoryButton = document.getElementById('clear-history');
     const gradientButton = document.getElementById('gradient-btn');
-    const discoverCard = document.getElementById('discover-card');
+    
     const completeButtons = document.querySelectorAll('.complete-btn');
 
     // Complete button clicked event
@@ -78,6 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Discover card click event - redirect to new page section
+    const discoverCard = document.getElementById('discover-card');
     discoverCard.addEventListener('click', function() {
         window.location.href = "discover.html";
     });
