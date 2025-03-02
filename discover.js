@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Gradient button click event - change background color
+    // Gradient button click event - change background color section
     const gradientButton = document.getElementById('gradient-btn');
     gradientButton.addEventListener('click', function() {
         const randomColor = getRandomColor();
         document.body.style.backgroundColor = randomColor;
     });
 
-    // Function to generate random color
+    // Function to generate random color section
     function getRandomColor() {
         const letters = '0123456789ABCDEF';
         let color = '#';
