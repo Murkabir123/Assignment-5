@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Discover card click event - redirect to new page section
     discoverCard.addEventListener('click', function() {
-        window.location.href = 'discover.html';
+        window.location.href = "discover.html";
     });
 
     // Function to generate random color section
